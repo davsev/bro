@@ -2,7 +2,6 @@
 wp-content/backup/*
 wp-content/cache/*
 wp-content/upgrade/*
-wp-content/uploads/*
 wp-content/ai1wm-backups/*
 *.zip
 *.rar

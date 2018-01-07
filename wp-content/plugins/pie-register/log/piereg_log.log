@@ -1,0 +1,12 @@
+[ג 02-01-2018 11:53:52] [Client : 127.0.0.1] [URI : /brok/wp-admin/plugins.php?action=activate&plugin=pie-register%2Fpie-register.php&_wpnonce=efcc24b08b] [error] Table 'brok.wp_pieregister_lockdowns' doesn't exist [Function : pieOutputLoginForm] [Line : 285] [File : C:\xampp\htdocs\brok\wp-content\plugins\pie-register\login_form.php]
+
+[ג 02-01-2018 11:53:52] [Client : 127.0.0.1] [URI : /brok/wp-admin/plugins.php?action=activate&plugin=pie-register%2Fpie-register.php&_wpnonce=efcc24b08b] [error] Table 'brok.wp_pieregister_lockdowns' doesn't exist [Function : pieOutputLoginForm] [Line : 285] [File : C:\xampp\htdocs\brok\wp-content\plugins\pie-register\login_form.php]
+
+[ג 02-01-2018 11:53:52] [Client : 127.0.0.1] [URI : /brok/wp-admin/plugins.php?action=activate&plugin=pie-register%2Fpie-register.php&_wpnonce=efcc24b08b] [error] Table 'brok.wp_pieregister_lockdowns' doesn't exist [Function : pieOutputLoginForm] [Line : 285] [File : C:\xampp\htdocs\brok\wp-content\plugins\pie-register\login_form.php]
+
+[ג 02-01-2018 14:21:36] [Client : 127.0.0.1] [URI : /brok/%d7%94%d7%a6%d7%98%d7%a8%d7%a4%d7%95-%d7%9c%d7%91%d7%a8%d7%95%d7%a7%d7%a8/] [error] 'The e-mail could not be sent. Possible reason: your host may have disabled the mail() function...' [Function : send_admin_notifications] [Line : 3256] [File : C:\xampp\htdocs\brok\wp-content\plugins\pie-register\pie-register.php]
+
+[ג 02-01-2018 14:21:37] [Client : 127.0.0.1] [URI : /brok/%d7%94%d7%a6%d7%98%d7%a8%d7%a4%d7%95-%d7%9c%d7%91%d7%a8%d7%95%d7%a7%d7%a8/] [error] 'The e-mail could not be sent. Possible reason: your host may have disabled the mail() function...' [Function : pie_save_registration] [Line : 3015] [File : C:\xampp\htdocs\brok\wp-content\plugins\pie-register\pie-register.php]
+
+[ג 02-01-2018 14:26:05] [Client : 127.0.0.1] [URI : /brok/wp-admin/users.php?page=unverified-users] [error] 'The e-mail could not be sent. Possible reason: your host may have disabled the mail() function...' [Function : verifyUsers] [Line : 3546] [File : C:\xampp\htdocs\brok\wp-content\plugins\pie-register\pie-register.php]
+

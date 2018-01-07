@@ -1,0 +1,47 @@
+    div#prop-search {
+        margin-top: 50px;
+        div#the-tabs {
+            .tab-pane {
+                padding-top: 25px;
+            }
+            li {
+                min-width: 50%;
+                text-align: center;
+                font-size: 2.5rem;
+                border-radius: 0px;
+                a {
+                    color: #fff;
+                    background-color: $blue;
+                    margin-right: 0px;
+                    border-radius: 0px;
+                }
+                a:hover {
+                    color: #000;
+                    background-color: $green;
+                }
+            }
+            li.active {
+                a {
+                    color: #000;
+                    background-color: $green;
+                }
+            }
+        }
+        .formsubmit {
+            color: #fff;
+            background-color: #000;
+            min-width: 100%;
+            font-size: 2.5rem;
+            border-radius: 0px;
+        }
+        .form-group {
+            font-size: 2.5rem;
+        }
+        .form-control {
+            height: 49px;
+            border-radius: 0px;
+        }
+        #prop-tab-searchform {
+            background-color: $green;
+        }
+    }

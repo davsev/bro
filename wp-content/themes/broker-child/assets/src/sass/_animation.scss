@@ -1,0 +1,17 @@
+.animation-increease {
+    &:hover {
+        -ms-transform: scale(1.1, 1.1);
+        /* IE 9 */
+        -webkit-transform: scale(1.1, 1.1);
+        /* Safari */
+        transform: scale(1.1, 1.1);
+        -webkit-box-shadow: 2px 2px 20px 0px $green;
+        -moz-box-shadow: 2px 2px 20px 0px $green;
+        box-shadow: 2px 2px 20px 0px $green;
+        z-index: 9999;
+        border-right: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+}

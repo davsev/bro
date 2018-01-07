@@ -1,0 +1,51 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-01 09:40+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: backend/metaboxes/default.php:51
+msgid "Ajax Search Pro settings"
+msgstr ""
+
+#: includes/classes/etc/updates.class.php:190
+msgid "\" target=\"_blank\">Settings</a> to activate Ajax Search Pro."
+msgstr ""
+
+#: includes/classes/etc/updates_manager.class.php:115
+msgid "Download new version from CodeCanyon."
+msgstr ""
+
+#: includes/classes/etc/updates_manager.class.php:117
+msgid "Update Ajax Search Pro now."
+msgstr ""
+
+#. Name of the plugin
+msgid "Ajax Search Pro"
+msgstr ""
+
+#. Description of the plugin
+msgid "The most powerful live search engine for WordPress."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wp-dreams.com/go/?to=asp-demo"
+msgstr ""
+
+#. Author of the plugin
+msgid "Ernest Marcinko"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://codecanyon.net/user/wpdreams"
+msgstr ""
