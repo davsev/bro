@@ -1,0 +1,274 @@
+[hidden new - customer
+    default: statuscode "6"
+]
+[hidden account - name
+    default: accountname "בדיקה"
+]
+
+<
+div class = "row" >
+    <
+    div class = "col-xs-12 right" >
+    <
+    h2 > פרטים אישיים < /h2> <
+    /div> <
+    /div>
+
+    <
+    div class = "row" >
+    <
+    div class = "col-md-6 col-xs-12 right" >
+    <
+    label > שם פרטי(חובה)[text * your - fname] <
+    /label> <
+    /div>
+
+    <
+    div class = "col-md-6 col-xs-12 right" >
+    <
+    label > שם משפחה(חובה)[text * your - lname] <
+    /label> <
+    /div> <
+    /div>
+
+
+
+    <
+    div class = "col-md-6 col-xs-12 right" >
+    <
+    label > מספר ת.ז(חובה)[text * your - id] <
+    /label> <
+    /div>
+
+    <
+    div class = "col-md-6 col-xs-12 right" >
+    <
+    label > תאריך יום הולדת[date your - bdate] <
+    /label> <
+    /div>
+
+    <
+    div class = "col-md-12 col-xs-12 right" >
+    <
+    label > שם החברה(חובה)[text * company - name] <
+    /label> <
+    /div>
+
+
+    <
+    div class = "col-xs-12 col-xs-12 right" >
+    <
+    h2 > דרכי התקשרות < /h2> <
+    /div> <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > טלפון סלולרי(חובה)[tel * cellphone] < /label> <
+    /div>
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > טלפון במשרד[tel * phone] < /label> <
+    /div>
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > דואר אלקטרוני(חובה)[text * your - email] < /label> <
+    /div>
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > כתובת משרד[text * your - address] < /label> <
+    /div>
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > עיר[text * your - city] < /label> <
+    /div>
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > מיקוד[number zipcode min: 0000000 max: 9999999] < /label> <
+    /div>
+
+    <
+    div class = "col-xs-12 right" >
+    <
+    h2 > סטנדרט ברוקר < /h2> <
+    /div>
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > שם המשרד[text * your - office] <
+    /label> <
+    /div>
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > רישיון בתוקף[select rishaion - betokef "כן|1"
+        "לא|2"] <
+    /label> <
+    /div>
+
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > (חובה) רישיון תיווך[text * rishaion - tivuh] <
+    /label> <
+    /div>
+
+
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > וותק[select vetec "ברוקר- מעל שנה|1"
+        "פחות משנה- ניו ברוקר (ברוקר חדש)|2"] <
+    /label> <
+    /div>
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > האם אתם הבעלים ? [select is - owner "כן|1"
+        "לא|2"
+    ] <
+    /label> <
+    /div>
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > תאריך תפיחת עסק[text taarich - ptichat - esek] <
+    /label> <
+    /div>
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > גודל המשרד[select office - size "מעל 10 מר|1"
+        "עד 10 מר|2"] <
+    /label> <
+    /div>
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > מספר סוכנים[text mispar - sochnim] <
+    /label> <
+    /div>
+
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > תוכנת תיווך[select program "מידן|1"
+        "במבי|2"
+        "בטאבו|3"
+        "נדלן וואן|4"
+        "אין תוכנה|5"
+        "אחר|6"] <
+    /label> <
+    /div>
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > מערך פרינט[select is - print "יש|1"
+        "אין|2"
+        "אחר|3"] <
+    /label> <
+    /div>
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > מומחה בעיר[text expert - in -city] <
+    /label> <
+    /div>
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > היקף משרה בתיווך[select part - time - job "משרה מלאה|1"
+        "משרה חלקית|2"
+        "אחר|3"] <
+    /label> <
+    /div>
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > סוג חברה[select sughevra "עוסק מורשה|1"
+        "חברה בעמ|2"] < /label> <
+    /div>
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > מספר עסקאות בשנה[select mispariskaot "מעל 10 עסקאות|1"
+        "עד 10 עסקאות|2"] <
+    /label> <
+    /div>
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > אזור התמחות[select ezoritmahut "צפון|1"
+        "דרום|2"
+        "מרכז|3"
+        "השרון|4"
+        "אילת וערבה|5"] <
+    /label> <
+    /div>
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > עבר פלילי[select avarplili "עבר פלילי נקי|1"
+        "אחר|2"] <
+    /label> <
+    /div>
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > כתובת דף יוטיוב עסקי[url youtube] <
+    /label> <
+    /div>
+
+    <
+    div class = "col-md-4 col-sm-12 right" >
+    <
+    label > כתובת דף פייסבוק עסקי[url facebook] <
+    /label> <
+    /div>
+
+
+    <
+    div class = "col-md-12 col-xs-12 right" >
+    <
+    label > מקור הגעה[select mekor - hagaa "המלצת חבר|4"
+        "טלפון|2"
+        "פייסבוק|6"
+        "אינטרנט|1"
+        "דיוור ישיר|3"
+        "אחר|5"] < /label> <
+    /div>
+
+
+    <
+    div class = "col-xs-12 right" >
+
+    <
+    hr / > [submit "סיימתי!"]
+
+    <
+    /div>
