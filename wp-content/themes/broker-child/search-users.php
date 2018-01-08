@@ -17,10 +17,27 @@ $args = array(
         array(
             'key' => 'active',
             'value' => '1',
-            'compare' => '='
+            'compare' => '=',
         ),
+        array(
+            'relation' => 'OR', 
+                array(
+                    'key' => 'wp_w3dev_user_banned',
+                    'value' => '1',
+                    'compare' => '!=',
+                ),
+                array(
+                    'key' => 'wp_w3dev_user_banned',
+                    'compare' => 'NOT EXISTS',
+                ),
+        ),    
     ),
 );    
+
+
+
+
+
 
 
 if(isset($_GET['user-search'])){
