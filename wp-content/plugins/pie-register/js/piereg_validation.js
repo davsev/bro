@@ -249,38 +249,39 @@ piereg(document).ready(function($){
 	
 	
 	
-	piereg("input.piereg_username_input_field").alphanum({
-		allow              : '_',    // Allow extra characters
-		disallow           : '',    // Disallow extra characters
-		allowSpace         : false,  // Allow the space character
-		allowNumeric       : true,  // Allow digits 0-9
-		allowUpper         : true,  // Allow upper case characters
-		allowLower         : true,  // Allow lower case characters
-		allowCaseless      : true,  // Allow characters that do not have both upper & lower variants
-									// eg Arabic or Chinese
-		allowLatin         : true,  // a-z A-Z
-		allowOtherCharSets : true,  // eg é, Á, Arabic, Chinese etc
-		forceUpper         : false, // Convert lower case characters to upper case
-		forceLower         : false, // Convert upper case characters to lower case
-		maxLength          : NaN    // eg Max Length
-	});
+
+	// piereg("input.piereg_username_input_field").alphanum({
+	// 	allow              : '_',    // Allow extra characters
+	// 	disallow           : '',    // Disallow extra characters
+	// 	allowSpace         : false,  // Allow the space character
+	// 	allowNumeric       : true,  // Allow digits 0-9
+	// 	allowUpper         : true,  // Allow upper case characters
+	// 	allowLower         : true,  // Allow lower case characters
+	// 	allowCaseless      : true,  // Allow characters that do not have both upper & lower variants
+	// 								// eg Arabic or Chinese
+	// 	allowLatin         : true,  // a-z A-Z
+	// 	allowOtherCharSets : true,  // eg ï¿½, ï¿½, Arabic, Chinese etc
+	// 	forceUpper         : false, // Convert lower case characters to upper case
+	// 	forceLower         : false, // Convert upper case characters to lower case
+	// 	maxLength          : NaN    // eg Max Length
+	// });
 	
 	
-	piereg("input.piereg_name_input_field").alphanum({
-		allow              : '',    // Allow extra characters
-		disallow           : '',    // Disallow extra characters
-		allowSpace         : true,  // Allow the space character
-		allowNumeric       : false,  // Allow digits 0-9
-		allowUpper         : true,  // Allow upper case characters
-		allowLower         : true,  // Allow lower case characters
-		allowCaseless      : true,  // Allow characters that do not have both upper & lower variants
-									// eg Arabic or Chinese
-		allowLatin         : true,  // a-z A-Z
-		allowOtherCharSets : true,  // eg é, Á, Arabic, Chinese etc
-		forceUpper         : false, // Convert lower case characters to upper case
-		forceLower         : false, // Convert upper case characters to lower case
-		maxLength          : NaN    // eg Max Length
-	});
+	// piereg("input.piereg_name_input_field").alphanum({
+	// 	allow              : '',    // Allow extra characters
+	// 	disallow           : '',    // Disallow extra characters
+	// 	allowSpace         : true,  // Allow the space character
+	// 	allowNumeric       : false,  // Allow digits 0-9
+	// 	allowUpper         : true,  // Allow upper case characters
+	// 	allowLower         : true,  // Allow lower case characters
+	// 	allowCaseless      : true,  // Allow characters that do not have both upper & lower variants
+	// 								// eg Arabic or Chinese
+	// 	allowLatin         : true,  // a-z A-Z
+	// 	allowOtherCharSets : true,  // eg ï¿½, ï¿½, Arabic, Chinese etc
+	// 	forceUpper         : false, // Convert lower case characters to upper case
+	// 	forceLower         : false, // Convert upper case characters to lower case
+	// 	maxLength          : NaN    // eg Max Length
+	// });
 	/* Restrict username of Upprecase & space (start)*/ // Edited by AHMED 120515
 	//piereg('input.piereg_username_input_field').keypress(function(e) {
 		/*if (this.value.match(/[^a-zA-Z0-9]/g)) {

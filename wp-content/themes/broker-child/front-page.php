@@ -48,13 +48,7 @@ get_header(); ?>
                             <?php echo do_shortcode('[wd_asp id=2]'); ?>
                         </div>
                         <div role="tabpanel" class="tab-pane" id="profile">
-
-                            <form class="search" action="<?php echo home_url('/'); ?>">
-                                <input type="search" class="front-page-search" name="s" value="" 
-                                       placeholder="חפשו ברוקר&hellip;">
-                                <input type="submit" id="front-broker-search" class="front-page-search-submit" value="חיפוש">
-                                <input type="hidden" name="post_type" value="broker">
-                            </form>
+                        <?php echo do_shortcode('[wd_asp id=4]'); ?>
                         </div>
                     </div>
                 </div> <!-- /#search-tabs --> 

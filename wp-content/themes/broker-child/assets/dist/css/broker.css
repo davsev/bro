@@ -1,12 +1,12 @@
 @charset "UTF-8";
 @font-face {
   font-family: open-sans;
-  src: url("http://localhost:3000/brok/wp-content/themes/broker-child/fonts/OpenSansHebrew-Regular.ttf");
+  src: url("http://davdev.co.il/broker/wp-content/themes/broker-child/fonts/OpenSansHebrew-Regular.ttf");
   font-weight: normal; }
 
 @font-face {
   font-family: open-sans-bold;
-  src: url("http://localhost:3000/brok/wp-content/themes/broker-child/fonts/OpenSansHebrew-ExtraBold.ttf");
+  src: url("http://davdev.co.il/broker/wp-content/themes/broker-child/fonts/OpenSansHebrew-ExtraBold.ttf");
   font-weight: bolder; }
 
 h1,
@@ -286,7 +286,7 @@ input[type="search"] {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  background-image: url("http://localhost:3000/brok/wp-content/uploads/2017/09/icon_13.png");
+  background-image: url("http://davdev.co.il/broker/wp-content/uploads/2017/09/icon_13.png");
   background-repeat: no-repeat;
   background-position: right; }
 
@@ -386,7 +386,7 @@ img.submit-magnifying {
 #about-us {
   min-height: 100vh; }
   #about-us .cooking {
-    background: url("http://localhost:3000/brok//wp-content/uploads/2017/09/cooking.jpg");
+    background: url("http://davdev.co.il/broker//wp-content/uploads/2017/09/cooking.jpg");
     background-size: cover;
     background-position: center;
     min-height: 100vh; }
@@ -509,7 +509,7 @@ img.submit-magnifying {
 /* /form right side front page*/
 /* tool box*/
 #tool-box {
-  background-image: url("http://localhost:3000/brok//wp-content/uploads/2017/09/couple-with-cpu.jpg");
+  background-image: url("http://davdev.co.il/broker//wp-content/uploads/2017/09/couple-with-cpu.jpg");
   min-height: 100vh;
   background-position: center center;
   -webkit-box-align: end;
@@ -615,7 +615,7 @@ img.submit-magnifying {
 /*  /tool box*/
 /* testimonials*/
 #testimonials {
-  background-image: url("http://localhost:3000/brok/wp-content/uploads/2017/09/famely-selfie.jpg");
+  background-image: url("http://davdev.co.il/broker/wp-content/uploads/2017/09/famely-selfie.jpg");
   background-size: cover;
   background-position: center;
   min-height: 100vh; }
@@ -701,7 +701,7 @@ i.fa.fa-chevron-right.fa-2.slick-arrow {
 /* /testimonials*/
 /* social*/
 #social {
-  background-image: url("http://localhost:3000/brok/wp-content/uploads/2017/12/Depositphotos_161660516_original.jpg");
+  background-image: url("http://davdev.co.il/broker/wp-content/uploads/2017/12/Depositphotos_161660516_original.jpg");
   background-size: cover;
   background-position: center right; }
   #social #social-inner {
@@ -760,7 +760,7 @@ i.fa.fa-chevron-right.fa-2.slick-arrow {
 /* /social*/
 /* contact*/
 #contact {
-  background-image: url("http://localhost:3000/brok/wp-content/uploads/2017/09/contact.jpg");
+  background-image: url("http://davdev.co.il/broker/wp-content/uploads/2017/09/contact.jpg");
   background-size: cover;
   background-position: top left;
   min-height: 100vh; }
@@ -1114,7 +1114,7 @@ i.fa.fa-chevron-right.fa-4.slick-arrow {
 
 /*login page*/
 .login-action-register {
-  background-image: url("http://localhost:3000/brok//wp-content/uploads/2017/09/broker-father-and-son.jpg"); }
+  background-image: url("http://davdev.co.il/broker//wp-content/uploads/2017/09/broker-father-and-son.jpg"); }
 
 .login {
   -webkit-box-pack: center;
@@ -2117,24 +2117,24 @@ i.fa.fa-plus-circle {
         margin: 0 5px; } }
 
 .whatsapp {
-  background-image: url("http://localhost:3000/brok//wp-content/uploads/2017/12/wa.png"); }
+  background-image: url("http://davdev.co.il/broker//wp-content/uploads/2017/12/wa.png"); }
   .whatsapp:hover {
-    background-image: url("http://localhost:3000/brok//wp-content/uploads/2017/12/wah.png"); }
+    background-image: url("http://davdev.co.il/broker//wp-content/uploads/2017/12/wah.png"); }
 
 .email {
-  background-image: url("http://localhost:3000/brok//wp-content/uploads/2017/12/mail.png"); }
+  background-image: url("http://davdev.co.il/broker//wp-content/uploads/2017/12/mail.png"); }
   .email:hover {
-    background-image: url("http://localhost:3000/brok//wp-content/uploads/2017/12/mailh.png"); }
+    background-image: url("http://davdev.co.il/broker//wp-content/uploads/2017/12/mailh.png"); }
 
 .noslimstat {
-  background-image: url("http://localhost:3000/brok//wp-content/uploads/2017/12/print.png"); }
+  background-image: url("http://davdev.co.il/broker//wp-content/uploads/2017/12/print.png"); }
   .noslimstat:hover {
-    background-image: url("http://localhost:3000/brok//wp-content/uploads/2017/12/printh.png"); }
+    background-image: url("http://davdev.co.il/broker//wp-content/uploads/2017/12/printh.png"); }
 
 .facebook {
-  background-image: url("http://localhost:3000/brok//wp-content/uploads/2017/12/fb.png"); }
+  background-image: url("http://davdev.co.il/broker//wp-content/uploads/2017/12/fb.png"); }
   .facebook:hover {
-    background-image: url("http://localhost:3000/brok//wp-content/uploads/2017/12/fbh.png"); }
+    background-image: url("http://davdev.co.il/broker//wp-content/uploads/2017/12/fbh.png"); }
 
 div#prints {
   max-width: 69px;
@@ -2496,8 +2496,7 @@ navbar-nav > .active > a,
     #masthead {
       max-height: 80px; } }
   #masthead li:hover > ul {
-    display: block;
-    position: absolute; }
+    display: block; }
   #masthead li:hover li {
     float: none;
     min-width: 100%;
@@ -2528,6 +2527,8 @@ navbar-nav > .active > a,
     @media (min-width: 991px) {
       #masthead .navbar-toggle {
         display: none; } }
+  #masthead .sub-menu {
+    display: none; }
   @media (min-width: 991px) {
     #masthead .navbar-nav li {
       min-height: 10px;

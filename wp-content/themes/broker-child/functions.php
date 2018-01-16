@@ -829,3 +829,20 @@ function ban_user( $user_id, $message="%%reason%%", $date = 'Indefinent', $ban_d
 /**
  * /  w3-dev ban user cpt line 668
  */
+
+
+/*
+Ahax search pro user image search
+*/	
+// ---- !!! ONLY COPY PASTE CODE BELOW THIS LINE to the functions.php in your theme directory !!! ----
+add_filter( 'asp_results', 'asp_get_custom_cf_image', 1, 1 );
+function asp_get_custom_cf_image( $results ) {
+	foreach ($results as $k=>&$r) {
+		if ( $r->content_type = 'user' ) {
+			$img = get_user_meta($r->id, 'pie_profile_pic_6', true);
+			if ( !is_wp_error($img) && !empty($img) )
+				$r->image = $img;
+		}
+	}
+	return $results;
+}

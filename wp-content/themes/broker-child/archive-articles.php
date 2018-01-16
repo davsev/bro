@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: ארכיון מאמרים למשתמשים רשומים
+ * Template Name: ארכיון מאמרים 
  */
 
 get_header(); 

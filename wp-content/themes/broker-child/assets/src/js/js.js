@@ -314,3 +314,14 @@ jQuery(function($) {
 
 /*tooltip */
 jQuery('input').tooltip();
+
+
+
+
+/**
+ * menu mobile sub menu toggle
+ */
+jQuery('.menu-item-has-children').click(function(){
+    jQuery(this).find('.sub-menu').slideToggle();
+    console.log(jQuery(this).find('.sub-menu'));
+});

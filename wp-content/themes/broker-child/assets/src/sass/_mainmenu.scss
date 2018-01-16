@@ -110,7 +110,7 @@ navbar-nav>.active>a,
     }
     li:hover>ul {
         display: block;
-        position: absolute;
+        // position: absolute;
     }
     li:hover li {
         float: none;
@@ -145,6 +145,10 @@ navbar-nav>.active>a,
         @media(min-width: 991px) {
             display: none
         }
+    }
+
+    .sub-menu{
+        display: none;
     }
     @media (min-width: 991px) {
         .navbar-nav li {
