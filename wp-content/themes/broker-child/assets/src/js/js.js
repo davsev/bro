@@ -321,7 +321,25 @@ jQuery('input').tooltip();
 /**
  * menu mobile sub menu toggle
  */
-jQuery('.menu-item-has-children').click(function(){
-    jQuery(this).find('.sub-menu').slideToggle();
-    console.log(jQuery(this).find('.sub-menu'));
+
+
+
+
+if (window.matchMedia("(min-width: 991px)").matches) {
+    jQuery('.menu-item-has-children').hover(function(){
+        jQuery(this).find('.sub-menu').slideToggle();
+        console.log(jQuery(this).find('.sub-menu'));
+    });
+  } else {
+    jQuery('.menu-item-has-children').click(function(){
+        jQuery(this).find('.sub-menu').slideToggle();
+        console.log(jQuery(this).find('.sub-menu'));
+    });
+  }
+
+
+
+  jQuery('.navbar-toggle-above').click(function(){
+    jQuery('.navbar-default').toggleClass('mobile-nav-vis');
+    console.log(jQuery('.navbar-default'));
 });

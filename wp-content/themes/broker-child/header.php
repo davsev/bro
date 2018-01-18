@@ -69,12 +69,14 @@ $logo = $image[0];
 		</div>
 		<div class="container">
 			<div class="container site-header-inner header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			<button type="button" class="navbar-toggle"></button>
+				<button type="button" class="navbar-toggle-above" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 					<span class="sr-only"><?php _e('Toggle navigation','_tk') ?> </span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
+									
 				<div class="navbar navbar-default">
 					
 					
@@ -105,18 +107,6 @@ $logo = $image[0];
 			</div>
 		</div><!-- .container -->
 	</header><!-- #masthead -->
-
-<nav class="site-navigation">
-<?php // substitute the class "container-fluid" below if you want a wider content area ?>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="site-navigation-inner col-sm-12 zero-height">
-
-			</div>
-		</div>
-	</div><!-- .container -->
-</nav><!-- .site-navigation -->
-
 
 <div id="social-tab">
 

@@ -5152,7 +5152,7 @@ msgstr "מוגן: %s"
 #: wp-includes/post-template.php:145
 #, php-format
 msgid "Private: %s"
-msgstr "פרימיום: %s"
+msgstr "פרטי: %s"
 
 #: wp-includes/post-template.php:273
 msgid "(more&hellip;)"
