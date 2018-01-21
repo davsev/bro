@@ -18,7 +18,7 @@ while (have_posts()):
   <div class="container">
     <header class="get_the_category_list">
       <div class="row">
-        <div class="col-sx-12">
+        <div class="col-xs-12">
           <h1 class="page-title">
             <?php
     the_title();
@@ -27,7 +27,7 @@ while (have_posts()):
         </div>
       </div>
       <div class="row" id="article-upper-bar">
-        <div class="col-md-6 col-md-12 text-right v-center">
+        <div class="col-sm-12 text-right v-center">
           <div class="row v-center h-center">
             <?php
     echo get_avatar($user_id, 50);
@@ -71,28 +71,24 @@ if ( $terms && !is_wp_error( $terms ) ) :
 <?php endif;?>
 
             </div>
-          <div class="col-md-6 col-md-12 broker-contact-icons v-center">
-            <div id="list-contact">
-              <a href="#" class="contact-link eye">
-                <?php
-    the_field('ar_views'); ?>
-              </a>
-             
-              <div id="prints" href="#">
-                <?php
-    echo do_shortcode('[printfriendly]'); ?>הדפסה
-              </div>
+          <div class="col-sm-12 broker-contact-icons v-center">
+          <div id="list-contact">
 
-              
+          <?php echo do_shortcode('[ssba-buttons]'); ?>
 
-            <!-- AddToAny BEGIN -->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
-<a class="a2a_button_facebook"></a>
-</div>
-<script async src="https://static.addtoany.com/menu/page.js"></script>
-<!-- AddToAny END -->
-          </div>
+               <a href="https://web.whatsapp.com/send?text=<?php
+     the_title(); ?> – <?php
+     urlencode(the_permalink()); ?>" data-action=”share/whatsapp/share”  data-text="עוד מאמר מדהים מאתר ברוקר"  class="contact-link whatsapp">
+               </a>
+               <!-- <a href="mailto:" class="contact-link email">מייל
+               </a>
+               <a href="#" class="contact-link facebook">פייסבוק
+               </a>
+               <div id="prints" href="#">
+                 <?php
+     //echo do_shortcode('[printfriendly]'); ?>הדפסה
+               </div> -->
+             </div>
         </div>
         </header>
       <!-- .entry-header -->
@@ -161,7 +157,11 @@ if ( $terms && !is_wp_error( $terms ) ) :
             <div class="fb-share-button" 
                  data-href="https://www.your-domain.com/your-page.html" 
                  data-layout="button_count">
+
+                 
             </div>
+          <?php echo do_shortcode('[aps-get-count social_media="facebook/twitter/googlePlus/instagram/youtube/soundcloud/dribbble/posts/comments" count_format="default/comma/short"]')?>
+
           </div>
         </div>
         <?php

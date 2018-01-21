@@ -846,3 +846,26 @@ function asp_get_custom_cf_image( $results ) {
 	}
 	return $results;
 }
+
+
+
+// If user is unaproved by admin redirect to user search page;
+function broker_approve_check($userid){
+    $active = get_user_meta($userid, 'active');
+   echo '<hr />';
+   if($active[0] != 1){ 
+    header('Location: '.get_site_url().'/תוצאות-חיפוש-ברוקרים/');
+   };
+}
+
+//If user is banned 
+function broker_banned_check($userid){
+    $banned = get_user_meta($userid, 'wp_w3dev_user_banned');
+   if($banned[0] == 1){ 
+   return true; 
+   };
+};
+
+
+
+

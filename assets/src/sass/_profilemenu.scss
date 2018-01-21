@@ -1,0 +1,12 @@
+#menu-profile-menu {
+    li {
+        background-color: $black;
+        margin: 5px 0
+    }
+    a {
+        min-width: 100%;
+        padding: 25px;
+        min-height: 25px;
+        display: inline-block;
+    }
+}

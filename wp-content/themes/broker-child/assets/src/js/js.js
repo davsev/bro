@@ -323,23 +323,29 @@ jQuery('input').tooltip();
  */
 
 
-
-
 if (window.matchMedia("(min-width: 991px)").matches) {
     jQuery('.menu-item-has-children').hover(function(){
         jQuery(this).find('.sub-menu').slideToggle();
-        console.log(jQuery(this).find('.sub-menu'));
+      
     });
   } else {
     jQuery('.menu-item-has-children').click(function(){
         jQuery(this).find('.sub-menu').slideToggle();
-        console.log(jQuery(this).find('.sub-menu'));
+      
     });
   }
 
 
 
-  jQuery('.navbar-toggle-above').click(function(){
-    jQuery('.navbar-default').toggleClass('mobile-nav-vis');
-    console.log(jQuery('.navbar-default'));
+jQuery('.navbar-toggle-above').click(function(){
+    jQuery('.navbar-default').toggleClass('mobile-nav-vis', [1000]);
+    $('#menu-ham').toggleClass('open', [1000]);
 });
+   
+
+document.body.onload = function () {
+    var textcontrol = $("#single_broker_main_cont");
+    var height = textcontrol.height();
+    $('#disable').css('height', height);
+
+};

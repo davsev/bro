@@ -142,3 +142,4 @@ $the_query = new WP_Query( $args );
         <?php get_sidebar(); ?>
     </div>
 </div>
+<?php get_footer(); ?>

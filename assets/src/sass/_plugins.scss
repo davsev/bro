@@ -1,0 +1,263 @@
+/*user meta plugin*/
+
+.um_description {
+    text-align: right !important;
+}
+
+
+/*pie register register form*/
+
+ul#pie_register {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pieregWrapper #pie_register .fields {
+    width: 50%;
+    @media (max-width: 991px) {
+        width: 100%;
+    }
+}
+
+li.fields.pageFields_1.label_top.piereg_li_18,
+li.fields.pageFields_2.label_top.piereg_li_16,
+li.fields.pageFields_3.label_top.piereg_li_27,
+li.fields.pageFields_4.label_top.piereg_li_32 {
+    width: 100% !important;
+}
+
+.pieregWrapper .fields.pageFields_1.label_top.piereg_li_18 .fieldset,
+.pieregWrapper .fields.pageFields_2.label_top.piereg_li_16 .fieldset,
+.pieregWrapper .fields.pageFields_3.label_top.piereg_li_27 .fieldset,
+.pieregWrapper .fields.pageFields_4.label_top.piereg_li_32 .fieldset,
+{
+    float: right !important;
+    text-align: right;
+}
+
+.piereg_progressbar {
+    display: none;
+}
+
+.pie_wrap_buttons,
+.piereg_li_31 .fieldset {
+    display: flex;
+    width: 100%;
+}
+
+.pie_next,
+.pie_wrap_buttons input[type="submit"] {
+    color: #000 !important;
+    background: $green !important;
+    font-size: 2.5rem;
+    border-radius: 0px;
+}
+
+.pie_prev {
+    color: #000 !important;
+    background: red !important;
+    font-size: 2.5rem;
+    border-radius: 0px;
+}
+
+
+/*forgot password pie forms*/
+
+body .pieregWrapper .piereg_warning {
+    margin: 0px 0px 0px 0px;
+    padding: 12px 10px 12px 50px;
+    border-width: 1px;
+    border-style: solid;
+    background: url(../images/warning_msg.png) no-repeat 20px 14px rgb(255, 0, 0);
+    border-color: rgb(238, 162, 54);
+    padding-left: 44px;
+    color: #ffffff;
+}
+
+
+/*button*/
+
+.piereg_container .piereg_login_wrapper .submit input[type="submit"],
+.pieregWrapper input[type="submit"],
+.pieregWrapper .pie_prev,
+.pieregWrapper .pie_next,
+#piereg_login form#piereg_lostpasswordform p input[type="submit"],
+.pieregWrapper input[type="reset"],
+.pieregWrapper input[type="button"],
+.pieregWrapper input[type="reset"] {
+    padding: 6px 10px;
+    font-size: 15px;
+    color: #000;
+    border: none;
+    background-color: $blue;
+    cursor: pointer;
+    border-radius: 0px;
+    margin: 0 2px;
+    margin-bottom: 5px;
+}
+
+
+/*button:hover*/
+
+.pieregWrapper #pie_register .fields button:hover,
+.pieregWrapper #pie_register .fields button:focus,
+.pieregWrapper #pie_register .fields .button:hover,
+.pieregWrapper #pie_register .fields .button:focus,
+.pieregWrapper #pie_register .fields input[type="button"]:hover,
+.pieregWrapper #pie_register .fields input[type="button"]:focus,
+.pieregWrapper #pie_register .fields input[type="reset"]:hover,
+.pieregWrapper #pie_register .fields input[type="reset"]:focus,
+.pieregWrapper #pie_register .fields input[type="submit"]:hover,
+.pieregWrapper #pie_register .fields input[type="submit"]:focus,
+.piereg_container .piereg_login_wrapper .submit input[type="submit"]:hover,
+.piereg_container .piereg_resetpassform .submit input[type="submit"]:hover,
+.pieregWrapper input[type="submit"]:hover,
+.pieregWrapper .pie_prev,
+.pieregWrapper .pie_next:hover,
+#piereg_login form#piereg_lostpasswordform p input[type="submit"]:hover,
+.piereg_container .piereg_login_wrapper .submit input[type="submit"]:focus,
+.piereg_container .piereg_resetpassform .submit input[type="submit"]:focus,
+.pieregWrapper input[type="submit"]:focus,
+.pieregWrapper .pie_prev,
+.pieregWrapper .pie_next:focus,
+#piereg_login form#piereg_lostpasswordform p input[type="submit"]:focus {
+    background: #fff;
+    color: $blue;
+}
+
+
+/*שגיאות שחזור סיסמה*/
+
+.piereg_container .piereg_login_error,
+.pieregForgotPassword.pieregWrapper .piereg_login_error {
+    margin: 0 0 0px 0px;
+    padding: 12px;
+    border-width: 1px;
+    border-style: solid;
+    color: #ffffff;
+    /* background: url(../images/err_msg.png) no-repeat 20px 18px #d22828; */
+    background: url(../images/err_msg.png) no-repeat 20px 18px rgb(255, 4, 0);
+    border-color: rgb(255, 4, 0);
+    padding-left: 40px;
+    /* border-radius: 8px; */
+    margin: 0 0 10px;
+    text-align: right;
+    clear: both;
+}
+
+
+/*Login and register pie forms*/
+
+.piereg_login_wrapper,
+#pie_register_reg_form {
+    background-color: $green !important;
+    padding: 0 10% !important;
+    label {
+        font-size: 1.8rem !important;
+        font-weight: bold !important;
+        color: $black !important;
+        font-family: $open-sans;
+        .piereg_field_required_label {
+            color: red !important;
+        }
+    }
+    .input_fields,
+    textarea,
+    select {
+        border-radius: 0px !important;
+        background-color: #fff !important;
+        height: 54px;
+        font-size: 1.8rem !important;
+    }
+    .button,
+    .pie_next,
+    .pie_wrap_buttons input[type="submit"] {
+        background-color: #1fa99f !important;
+        color: #fff !important;
+    }
+}
+
+
+/* שדות שצריכים 100% רוחב ו מיקום כפתורי בהא והקודם הטופס הרישום*/
+
+li.fields.pageFields_1.label_top.piereg_li_3,
+li.fields.pageFields_2.label_top.piereg_li_26,
+li.fields.pageFields_3.label_top.piereg_li_23,
+li.fields.pageFields_3.label_top.piereg_li_24,
+li.fields.pageFields_4.label_top.piereg_li_ {
+    width: 100% !important;
+}
+
+.pieregWrapper #pie_register .fields .input_fields,
+.pieregWrapper #piereg_login .input_fields {
+    width: 100% !important;
+}
+
+.pieregWrapper #pie_register .fields label {
+    width: 100%;
+}
+
+.post-459 .pieregWrapper #pie_register .fields {
+    width: 100%;
+}
+
+.desc {
+    font-size: 14px !important;
+}
+
+
+/*ajax search pro*/
+
+fieldset.asp_custom_f .noUi-target,
+fieldset.asp_custom_f .noUi-target * {
+    direction: ltr;
+    transition: none !important;
+}
+
+.proinput,
+.orig,
+.autocomplete,
+.asp_keywordת .item.asp_result_pagepost,
+.asp_content h3 {
+    font-family: $open-sans !important;
+}
+
+.probox {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+}
+
+.probox input::-webkit-input-placeholder {
+    font-family: $open-sans !important;
+}
+
+.probox input.orig::-moz-placeholderr {
+    font-family: $open-sans !important;
+}
+
+.probox input:-ms-input-placeholder {
+    font-family: $open-sans !important;
+}
+
+#preview {
+    padding: 10px;
+    position: fixed;
+    z-index: 10;
+    background: #FFF;
+    bottom: -365px;
+    right: 180px !important;
+    border: 1px solid #ccc;
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 0 16px -12px #000000;
+    -webkit-box-shadow: 0 0 16px -8px #000000;
+}
+
+
+/*
+simple share adder
+*/
+
+.ssba.ssba-wrap a {
+    margin: 6px !important;
+}

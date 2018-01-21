@@ -1,0 +1,81 @@
+    #list-contact {
+        display: flex;
+        margin: auto;
+        @media(min-width: 991px) {
+            margin: 0;
+        }
+        .contact-link {
+            background-repeat: no-repeat;
+            text-align: center;
+            min-width: 46px;
+            min-height: 66px;
+            display: flex;
+            align-self: flex-end;
+            padding-top: 50px;
+            @media(min-width: 991px) {
+                //border: 1px solid black;
+                display: block;
+                margin: 0 5px;
+            }
+        }
+    }
+    
+    .whatsapp {
+        background-image: url($site-url + '/wp-content/uploads/2017/12/wa.png');
+        &:hover {
+            background-image: url($site-url + '/wp-content/uploads/2017/12/wah.png');
+        }
+    }
+    
+    .email {
+        background-image: url($site-url + '/wp-content/uploads/2017/12/mail.png');
+        &:hover {
+            background-image: url($site-url + '/wp-content/uploads/2017/12/mailh.png');
+        }
+    }
+    
+    .noslimstat {
+        //print firendley addon css
+        background-image: url($site-url + '/wp-content/uploads/2017/12/print.png');
+        &:hover {
+            background-image: url($site-url + '/wp-content/uploads/2017/12/printh.png');
+        }
+    }
+    
+    .facebook {
+        background-image: url($site-url + '/wp-content/uploads/2017/12/fb.png');
+        &:hover {
+            background-image: url($site-url + '/wp-content/uploads/2017/12/fbh.png');
+        }
+    }
+    
+    div#prints {
+        max-width: 69px;
+        text-align: center;
+        .noslimstat {
+            height: 46px;
+            display: flex;
+            background-repeat: no-repeat;
+        }
+    }
+    
+    .bottom-share {
+        display: flex;
+        align-items: center;
+        margin: 25px 0;
+        a {
+            min-width: 100px;
+            min-height: 40px;
+            margin-left: 10px;
+            padding-right: 3px;
+            border: 1px solid #000000;
+            border-radius: 20px;
+            display: inline-flex;
+            align-items: center;
+            background-size: 40%;
+            &:hover {
+                background-color: #35424a;
+                color: #fff;
+            }
+        }
+    }

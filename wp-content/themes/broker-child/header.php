@@ -16,16 +16,10 @@
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 
 
-
-
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
 	
 	<?php wp_head(); ?>
-
-
-
 
 <?php 
 
@@ -43,7 +37,6 @@ $logo = $image[0];
   <meta property="og:title"         content="<?php echo bloginfo(); ?>" />
   <meta property="og:description"   content="<?php bloginfo( 'description' ); ?>" />
   <meta property="og:image"         content="<?php echo $logo; ?>" />
-
 
 </head>
 
@@ -70,11 +63,12 @@ $logo = $image[0];
 		<div class="container">
 			<div class="container site-header-inner header">
 			<button type="button" class="navbar-toggle"></button>
-				<button type="button" class="navbar-toggle-above" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<button type="button" class="navbar-toggle-above" id="menu-ham" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
 					<span class="sr-only"><?php _e('Toggle navigation','_tk') ?> </span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
 				</button>
 									
 				<div class="navbar navbar-default">

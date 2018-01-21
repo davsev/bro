@@ -58,3 +58,19 @@
         }
     }
 }
+
+#disable{
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    background-color: #fff;
+    z-index: 2;
+    opacity: 0.5;
+    left:0;
+    right:0;
+    overflow:hidden;
+}
+
+#single_broker_main_cont{
+    padding: 0;
+}
